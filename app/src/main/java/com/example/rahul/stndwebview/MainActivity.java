@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
         // Defined in res/values/strings.xml
         mInterstitialAd.setAdUnitId(getString(R.string.Interstital_ad_unit_id));
 
-        String url = "http://www.investor-click.com/";
+        String url = "http://getbootstrap.com/";
         WebView view=(WebView) this.findViewById(R.id.webView);
         view.getSettings().setJavaScriptEnabled(true);
         view.loadUrl(url);
